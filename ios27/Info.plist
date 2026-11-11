@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CKSharingSupported</key>
+	<true/>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>AddListIntent</string>
+	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeProhibit</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>View your locked lists</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Access Vault</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.stormxr.newtest.vault</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeAdd</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Create a new list</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Add List</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.stormxr.newtest.addList</string>
+		</dict>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>

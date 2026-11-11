@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06EFB16303BDEC6007ACFB6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06EFB15303BDEC5007ACFB6 /* WidgetKit.framework */; };
+		D06EFB18303BDEC6007ACFB6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06EFB17303BDEC6007ACFB6 /* SwiftUI.framework */; };
+		D06EFB29303BDEC6007ACFB6 /* listitdoitwidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D06EFB13303BDEC5007ACFB6 /* listitdoitwidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0D84890306AB5A3008CD5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D84870306AB5A3008CD5AE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D06EFB27303BDEC6007ACFB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B3FEA52FE6602100365836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06EFB12303BDEC5007ACFB6;
+			remoteInfo = listitdoitwidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D06EAAF12FF2198000318969 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				D06EFB29303BDEC6007ACFB6 /* listitdoitwidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D06EFB13303BDEC5007ACFB6 /* listitdoitwidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = listitdoitwidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06EFB15303BDEC5007ACFB6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D06EFB17303BDEC6007ACFB6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D06EFB34303BE0CA007ACFB6 /* listitdoitwidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = listitdoitwidgetExtension.entitlements; sourceTree = "<group>"; };
+		D0B3FEAD2FE6602100365836 /* ListItDoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListItDoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D84870306AB5A3008CD5AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D06EAAF52FF21A3600318969 /* Exceptions for "ios27" folder in "ios27" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D0B3FEAC2FE6602100365836 /* ios27 */;
+		};
+		D06EFB2D303BDEC6007ACFB6 /* Exceptions for "listitdoitwidget" folder in "listitdoitwidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D06EFB12303BDEC5007ACFB6 /* listitdoitwidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D06EFB19303BDEC6007ACFB6 /* listitdoitwidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D06EFB2D303BDEC6007ACFB6 /* Exceptions for "listitdoitwidget" folder in "listitdoitwidgetExtension" target */,
+			);
+			path = listitdoitwidget;
+			sourceTree = "<group>";
+		};
+		D0B3FEAF2FE6602100365836 /* ios27 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D06EAAF52FF21A3600318969 /* Exceptions for "ios27" folder in "ios27" target */,
+			);
+			path = ios27;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06EFB10303BDEC5007ACFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				D06EFB18303BDEC6007ACFB6 /* SwiftUI.framework in Frameworks */,
+				D06EFB16303BDEC6007ACFB6 /* WidgetKit.framework in Frameworks */,
+			);
+		};
+		D0B3FEAA2FE6602100365836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06EFB14303BDEC5007ACFB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D84870306AB5A3008CD5AE /* Assets.xcassets */,
+				D06EFB15303BDEC5007ACFB6 /* WidgetKit.framework */,
+				D06EFB17303BDEC6007ACFB6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B3FEA42FE6602100365836 = {
+			isa = PBXGroup;
+			children = (
+				D06EFB34303BE0CA007ACFB6 /* listitdoitwidgetExtension.entitlements */,
+				D0B3FEAF2FE6602100365836 /* ios27 */,
+				D06EFB19303BDEC6007ACFB6 /* listitdoitwidget */,
+				D06EFB14303BDEC5007ACFB6 /* Frameworks */,
+				D0B3FEAE2FE6602100365836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B3FEAE2FE6602100365836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B3FEAD2FE6602100365836 /* ListItDoIt.app */,
+				D06EFB13303BDEC5007ACFB6 /* listitdoitwidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06EFB12303BDEC5007ACFB6 /* listitdoitwidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06EFB2A303BDEC6007ACFB6 /* Build configuration list for PBXNativeTarget "listitdoitwidgetExtension" */;
+			buildPhases = (
+				D06EFB0F303BDEC5007ACFB6 /* Sources */,
+				D06EFB10303BDEC5007ACFB6 /* Frameworks */,
+				D06EFB11303BDEC5007ACFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D06EFB19303BDEC6007ACFB6 /* listitdoitwidget */,
+			);
+			name = listitdoitwidgetExtension;
+			productName = listitdoitwidgetExtension;
+			productReference = D06EFB13303BDEC5007ACFB6 /* listitdoitwidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D0B3FEAC2FE6602100365836 /* ios27 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B3FEBA2FE6602200365836 /* Build configuration list for PBXNativeTarget "ios27" */;
+			buildPhases = (
+				D0B3FEA92FE6602100365836 /* Sources */,
+				D0B3FEAA2FE6602100365836 /* Frameworks */,
+				D0B3FEAB2FE6602100365836 /* Resources */,
+				D06EAAF12FF2198000318969 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06EFB28303BDEC6007ACFB6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0B3FEAF2FE6602100365836 /* ios27 */,
+			);
+			name = ios27;
+			productName = ios27;
+			productReference = D0B3FEAD2FE6602100365836 /* ListItDoIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B3FEA52FE6602100365836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					D06EFB12303BDEC5007ACFB6 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D0B3FEAC2FE6602100365836 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = D0B3FEA82FE6602100365836 /* Build configuration list for PBXProject "ios27" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B3FEA42FE6602100365836;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D0B3FEAE2FE6602100365836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B3FEAC2FE6602100365836 /* ios27 */,
+				D06EFB12303BDEC5007ACFB6 /* listitdoitwidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06EFB11303BDEC5007ACFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D0B3FEAB2FE6602100365836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				D0D84890306AB5A3008CD5AE /* Assets.xcassets in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06EFB0F303BDEC5007ACFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D0B3FEA92FE6602100365836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06EFB28303BDEC6007ACFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06EFB12303BDEC5007ACFB6 /* listitdoitwidgetExtension */;
+			targetProxy = D06EFB27303BDEC6007ACFB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D06EFB2B303BDEC6007ACFB6 /* Debug configuration for PBXNativeTarget "listitdoitwidgetExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = listitdoitwidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F6867XG3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = listitdoitwidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = listitdoitwidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinstorm1.newtest.listitdoitwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D06EFB2C303BDEC6007ACFB6 /* Release configuration for PBXNativeTarget "listitdoitwidgetExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = listitdoitwidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F6867XG3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = listitdoitwidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = listitdoitwidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinstorm1.newtest.listitdoitwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0B3FEB82FE6602200365836 /* Debug configuration for PBXProject "ios27" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 82XZ54LS2Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B3FEB92FE6602200365836 /* Release configuration for PBXProject "ios27" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 82XZ54LS2Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B3FEBB2FE6602200365836 /* Debug configuration for PBXNativeTarget "ios27" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ios27/ios27.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 71;
+				DEVELOPMENT_TEAM = 5F6867XG3V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ios27/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "List It, Do It";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to unlock your Vault";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to let you set a location for tasks and use your current location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinstorm1.newtest;
+				PRODUCT_NAME = ListItDoIt;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B3FEBC2FE6602200365836 /* Release configuration for PBXNativeTarget "ios27" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ios27/ios27.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 71;
+				DEVELOPMENT_TEAM = 5F6867XG3V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ios27/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "List It, Do It";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to unlock your Vault";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to let you set a location for tasks and use your current location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinstorm1.newtest;
+				PRODUCT_NAME = ListItDoIt;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06EFB2A303BDEC6007ACFB6 /* Build configuration list for PBXNativeTarget "listitdoitwidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06EFB2B303BDEC6007ACFB6 /* Debug configuration for PBXNativeTarget "listitdoitwidgetExtension" */,
+				D06EFB2C303BDEC6007ACFB6 /* Release configuration for PBXNativeTarget "listitdoitwidgetExtension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D0B3FEA82FE6602100365836 /* Build configuration list for PBXProject "ios27" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B3FEB82FE6602200365836 /* Debug configuration for PBXProject "ios27" */,
+				D0B3FEB92FE6602200365836 /* Release configuration for PBXProject "ios27" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D0B3FEBA2FE6602200365836 /* Build configuration list for PBXNativeTarget "ios27" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B3FEBB2FE6602200365836 /* Debug configuration for PBXNativeTarget "ios27" */,
+				D0B3FEBC2FE6602200365836 /* Release configuration for PBXNativeTarget "ios27" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B3FEA52FE6602100365836 /* Project object */;
+	validationLevel = 1;
+}
